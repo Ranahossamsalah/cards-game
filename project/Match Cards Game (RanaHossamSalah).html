@@ -169,6 +169,35 @@
         </div>
       </div>
     </div>
+    <!--//////////////////////////////////////////add firebase////////////////////////////////////// -->
+    <!-- <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBByYgLUJrg7mkSykm72BIazGL7nkXZmYY",
+        authDomain: "cards-game-48bf5.firebaseapp.com",
+        projectId: "cards-game-48bf5",
+        storageBucket: "cards-game-48bf5.appspot.com",
+        messagingSenderId: "900644208562",
+        appId: "1:900644208562:web:dec4e81841c91568846eab",
+        measurementId: "G-BWDZ3DW0PJ",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      var bigone = document.getElementById("bigOne");
+      var dbRef = firebasr.database().ref().child("text");
+      dbRef.on("value", (snap) => (bigone.innerText = snap.val()));
+    </script> -->
+
     <script src="Match Cards Game (RanaHossamSalah).js"></script>
   </body>
 </html>

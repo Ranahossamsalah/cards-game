@@ -9,4 +9,4 @@ this is one of my projects using Html, CSS and javascript.
 
 3- you can use hearts to open random card.
 
-4- each time you refrech the cards are Rearranged.
+4- each time you refresh the cards are Rearranged.
